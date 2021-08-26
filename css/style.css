@@ -1,9 +1,15 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Satisfy&display=swap');
+
+/*for custom fonts*/
+@font-face {
+  font-family: 'mustardo';
+  src: url('../fonts/mustardo/mustardo-webfont.woff2') format('woff2'),
+       url('../fonts/mustardo/mustardo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 :root {
   --yellow: #FFAC00;
   --blue: #007bff;
@@ -32,16 +38,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-
-/*for custom fonts*/
-@font-face {
-    font-family: 'mustardo';
-    src: url('../fonts/mustardo/mustardo-webfont.woff2') format('woff2'),
-         url('../fonts/mustardo/mustardo-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -65,7 +62,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #e5e5e5;
+  color: #cdd6e2;
   text-align: left; 
 }
 
@@ -5427,7 +5424,7 @@ button.bg-light:focus {
   background-color: #dae0e5 !important; }
 
 .bg-dark {
-  background-color: #343a40 !important; }
+  background-color: #1f252e !important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -8156,7 +8153,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #242424;
+  background: #41729F;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -8171,7 +8168,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #FFAC00; }
+  color: #cdd6e2; }
   a:hover, a:focus {
     text-decoration: none;
     color: #FFAC00;
@@ -8195,7 +8192,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #242424 !important;
+      background: #1f252e !important;
       position: relative;
       top: 0;
       padding-top: 0;
@@ -8207,14 +8204,14 @@ h1, h2, h3, h4, h5,
     margin: 0 auto;
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
-    color: #FFAC00;
+    color: #cdd6e2;
     padding-top: .7rem;
     padding-bottom: .7rem; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
       color: #E5E5E5 !important; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
-        color: #FFAC00; } }
+        color: #cdd6e2; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 20px;
@@ -8225,7 +8222,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .7rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #E5E5E5;
+    color: #cdd6e2;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
@@ -8267,7 +8264,7 @@ h1, h2, h3, h4, h5,
         padding-right: 0;
         padding-bottom: 1rem;
         padding-top: 0;
-        color: #fff; } }
+        color: #cdd6e2; } }
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
     color: #fff;
     border: 1px solid #FFAC00;
@@ -8387,8 +8384,8 @@ h1, h2, h3, h4, h5,
       font-size: 24px; }
 
 .navbar-brand {
-  color: #FFAC00;
-  font-family: mustardo;
+  color: #cdd6e2;
+  font-family: 'Parisienne', cursive;
   font-size: 26px;
   position: relative;
   z-index: 0; }
@@ -8586,7 +8583,7 @@ h1, h2, h3, h4, h5,
   background: #f8f9fa !important; }
 
 .bg-dark {
-  background: #191919 !important; }
+  background: #1f252e !important; }
 
 .bg-primary {
   background: #FFAC00; }
@@ -9825,9 +9822,12 @@ textarea.form-control {
   background-color: #E4405F;
 }
 .social-menu ul li:nth-child(3) a:hover{
-  background-color: #0077b5;
+  background-color: #000;
 }
 .social-menu ul li:nth-child(4) a:hover{
+  background-color: #0077b5;
+}
+.social-menu ul li:nth-child(5) a:hover{
   background-color: #000;
 }
 
