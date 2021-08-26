@@ -8319,7 +8319,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #191919 !important;
+    background: #1f252e  !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0 15px; }
@@ -8379,8 +8379,8 @@ h1, h2, h3, h4, h5,
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
-      color: #FFAC00;
-      font-family: mustardo;
+      color: #cdd6e2;
+      font-family: 'Great Vibes', cursive;
       padding-top: 1rem;
       padding-bottom: 1rem;
       font-size: 24px; }
