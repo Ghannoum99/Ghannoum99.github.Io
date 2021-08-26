@@ -9168,15 +9168,11 @@ textarea.form-control {
 .ftco-bg-dark {
   background: #3c312e; }
 
-.ftco-footer {
+.mainHeader {
   margin-top: 5em;
-  font-size: 16px;
   background: #1f252e;
-  padding: 7em 0;
-  z-index: 0;
-  max-height: 20%;
+  font-size: 16px;
 }
-
 
 #map {
   width: 100%; }
