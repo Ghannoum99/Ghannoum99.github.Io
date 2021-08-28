@@ -5425,7 +5425,8 @@ button.bg-light:focus {
   background-color: #dae0e5 !important; }
 
 .bg-dark {
-  background-color: #1f252e !important; }
+  background-color: #1f252e !important;
+  min-width: 100%; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -8188,6 +8189,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-navbar-light {
   background: transparent !important;
+  min-width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -8196,6 +8198,7 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #1f252e !important;
+      min-width: 100%;
       position: relative;
       top: 0;
       padding-top: 0;
@@ -8586,7 +8589,8 @@ h1, h2, h3, h4, h5,
   background: #f8f9fa !important; }
 
 .bg-dark {
-  background: #1f252e !important; }
+  background: #1f252e !important;
+  min-width: 100%;  }
 
 .bg-primary {
   background: #FFAC00; }
